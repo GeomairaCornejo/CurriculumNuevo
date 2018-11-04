@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DatosFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="390dp"
+            android:layout_height="368dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/txtFecha"
+                android:layout_width="398dp"
+                android:layout_height="30dp"
+                android:text="Fecha:"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                tools:ignore="InvalidId" />
+            <EditText
+                android:id="@+id/textFecha"
+                android:layout_width="498dp"
+                android:layout_height="70dp"
+                android:text="20/03/2017 - 20/03/2018"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp"
+                android:textStyle="normal"
+                android:typeface="serif"
+                tools:ignore="DuplicateIds" />
+            <TextView
+                android:id="@+id/txtTrab"
+                android:layout_width="398dp"
+                android:layout_height="30dp"
+                android:text="Lugar de Trabajo:"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                tools:ignore="DuplicateIds,InvalidId" />
+
+            <EditText
+                android:id="@+id/textTrab"
+                android:layout_width="398dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="24dp"
+                android:text="Faenadora de pollos Cornejo"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp"
+                android:textStyle="normal"
+                android:typeface="serif"
+                tools:ignore="MissingConstraints" />
+            <TextView
+                android:id="@+id/txtDirec"
+                android:layout_width="398dp"
+                android:layout_height="30dp"
+                android:text="Direccion"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                tools:ignore="DuplicateIds,InvalidId" />
+            <EditText
+                android:id="@+id/textDireccion"
+                android:layout_width="398dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="24dp"
+                android:text="Coop Enner Parrales"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp"
+                android:textStyle="normal"
+                android:typeface="serif"
+                tools:ignore="MissingConstraints" />
+            <TextView
+                android:id="@+id/txtCargo"
+                android:layout_width="398dp"
+                android:layout_height="30dp"
+                android:text="Cargo"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                tools:ignore="InvalidId" />
+
+            <EditText
+                android:id="@+id/textCargo"
+                android:layout_width="398dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="5dp"
+                android:text="Gerente"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp"
+                android:textStyle="normal"
+                android:typeface="serif"
+                tools:ignore="MissingConstraints" />
+            <TextView
+                android:id="@+id/txtTareas"
+                android:layout_width="398dp"
+                android:layout_height="30dp"
+                android:text="Tareas Realizadas"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                tools:ignore="InvalidId" />
+
+            <EditText
+                android:id="@+id/textTareas"
+                android:layout_width="398dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="5dp"
+                android:text="Atención al cliente"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp"
+                android:textStyle="normal"
+                android:typeface="serif"
+                tools:ignore="MissingConstraints" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="siguiente" />
+        </LinearLayout>
+
+    </ScrollView>
+</FrameLayout>

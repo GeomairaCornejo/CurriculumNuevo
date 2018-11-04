@@ -15,37 +15,32 @@
             android:layout_height="368dp"
             android:orientation="vertical">
 
-            <ImageView
-                android:id="@+id/imageView"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                tools:src="@tools:sample/avatars[1]"
-                android:layout_marginLeft="125dp"/>
 
             <TextView
-                android:id="@+id/txtNombre"
+                android:id="@+id/txtEsc"
                 android:layout_width="398dp"
                 android:layout_height="30dp"
-                android:text="Nombres:"
+                android:text="Estudios Primarios:"
                 android:textColor="@color/colorAccent"
                 android:textSize="24sp"
                 android:textStyle="bold"
                 android:typeface="serif"
                 tools:ignore="InvalidId" />
             <EditText
-                android:id="@+id/textView"
+                android:id="@+id/textEsc"
                 android:layout_width="498dp"
-                android:layout_height="55dp"
-                android:text="Geomaira Selena"
+                android:layout_height="70dp"
+                android:text="Escuela particular mixta
+                Faustino Medardo Cruz"
                 android:textColor="@color/colorAccent"
                 android:textSize="20sp"
                 android:textStyle="normal"
                 android:typeface="serif" />
             <TextView
-                android:id="@+id/txtApe"
+                android:id="@+id/txtCol"
                 android:layout_width="398dp"
                 android:layout_height="30dp"
-                android:text="Apellidos:"
+                android:text="Estudios Secundarios:"
                 android:textColor="@color/colorAccent"
                 android:textSize="24sp"
                 android:textStyle="bold"
@@ -53,42 +48,43 @@
                 tools:ignore="DuplicateIds,InvalidId" />
 
             <EditText
-                android:id="@+id/textView2"
+                android:id="@+id/textCol"
                 android:layout_width="398dp"
                 android:layout_height="55dp"
                 android:layout_marginTop="24dp"
-                android:text="Cornejo Macías"
+                android:text="Colegio Fiscal Provincia de Tungurahua"
                 android:textColor="@color/colorAccent"
                 android:textSize="20sp"
                 android:textStyle="normal"
                 android:typeface="serif"
                 tools:ignore="MissingConstraints" />
             <TextView
-                android:id="@+id/txtCed"
+                android:id="@+id/txtUni"
                 android:layout_width="398dp"
                 android:layout_height="30dp"
-                android:text="Cédula:"
+                android:text="Estudios Superiores:"
                 android:textColor="@color/colorAccent"
                 android:textSize="24sp"
                 android:textStyle="bold"
                 android:typeface="serif"
                 tools:ignore="DuplicateIds,InvalidId" />
+
             <EditText
-                android:id="@+id/textced"
+                android:id="@+id/textUni"
                 android:layout_width="398dp"
                 android:layout_height="55dp"
                 android:layout_marginTop="24dp"
-                android:text="0956356364"
+                android:text="Universidad de Guayaquil"
                 android:textColor="@color/colorAccent"
                 android:textSize="20sp"
                 android:textStyle="normal"
                 android:typeface="serif"
                 tools:ignore="MissingConstraints" />
             <TextView
-                android:id="@+id/txtFecha"
+                android:id="@+id/txtCarrera"
                 android:layout_width="398dp"
                 android:layout_height="30dp"
-                android:text="Fecha de Nacimiento:"
+                android:text="Carrera:"
                 android:textColor="@color/colorAccent"
                 android:textSize="24sp"
                 android:textStyle="bold"
@@ -101,109 +97,42 @@
                 android:layout_height="55dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="5dp"
-                android:text="2 de junio 1998"
+                android:text="Lic. en Sistemas de Información"
                 android:textColor="@color/colorAccent"
                 android:textSize="20sp"
                 android:textStyle="normal"
                 android:typeface="serif"
                 tools:ignore="MissingConstraints" />
             <TextView
-                android:id="@+id/txtEmail"
+                android:id="@+id/txtIdi"
                 android:layout_width="398dp"
                 android:layout_height="30dp"
-                android:text="E-mail:"
+                android:text="Idiomas:"
                 android:textColor="@color/colorAccent"
                 android:textSize="24sp"
                 android:textStyle="bold"
                 android:typeface="serif"
                 tools:ignore="InvalidId" />
-            <EditText
-                android:id="@+id/textemail"
-                android:layout_width="398dp"
-                android:layout_height="55dp"
-                android:layout_marginTop="24dp"
-                android:text="geomaira.cornejom@ug.edu.ec"
-                android:textColor="@color/colorAccent"
-                android:textSize="20sp"
-                android:textStyle="normal"
-                android:typeface="serif"
-                tools:ignore="MissingConstraints" />
-            <TextView
-                android:id="@+id/txtCel"
-                android:layout_width="398dp"
-                android:layout_height="30dp"
-                android:text="Celular:"
-                android:textColor="@color/colorAccent"
-                android:textSize="24sp"
-                android:textStyle="bold"
-                android:typeface="serif"
-                tools:ignore="InvalidId" />
-            <EditText
-                android:id="@+id/textnum"
-                android:layout_width="398dp"
-                android:layout_height="55dp"
-                android:layout_marginTop="24dp"
-                android:text="0986384858"
-                android:textColor="@color/colorAccent"
-                android:textSize="20sp"
-                android:textStyle="normal"
-                android:typeface="serif"
-                tools:ignore="MissingConstraints" />
-            <TextView
-                android:id="@+id/txtDireccion"
-                android:layout_width="398dp"
-                android:layout_height="30dp"
-                android:text="Direccion:"
-                android:textColor="@color/colorAccent"
-                android:textSize="24sp"
-                android:textStyle="bold"
-                android:typeface="serif"
-                tools:ignore="InvalidId" />
-            <EditText
-                android:id="@+id/textdirec"
-                android:layout_width="398dp"
-                android:layout_height="55dp"
-                android:layout_marginTop="24dp"
-                android:text="km 24 via a Daule"
-                android:textColor="@color/colorAccent"
-                android:textSize="20sp"
-                android:textStyle="normal"
-                android:typeface="serif"
-                tools:ignore="MissingConstraints" />
-
-            <TextView
-                android:id="@+id/textView4"
-                android:layout_width="88sp"
-                android:layout_height="37dp"
-                android:layout_marginTop="8dp"
-                android:text="Sexo:"
-                android:textColor="@color/colorAccent"
-                android:textSize="24sp"
-                android:textStyle="bold"
-                android:typeface="serif"
-                tools:ignore="MissingConstraints" />
-
-
-            <CheckBox
-                android:id="@+id/checkM"
+            <RadioButton
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="35dp"
-                android:layout_marginRight="35dp"
-                android:text="Masculino"
-                android:textSize="24sp"
+                android:layout_height="match_parent"
+                android:text="Español"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp"
+                android:textStyle="normal"
                 android:typeface="serif"
-                tools:ignore="MissingConstraints" />
-
-            <CheckBox
-                android:id="@+id/checkF"
+                tools:ignore="MissingConstraints"
+                />
+            <RadioButton
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="35dp"
-                android:text="Femenino"
-                android:textSize="24sp"
+                android:layout_height="match_parent"
+                android:text="Inglés"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp"
+                android:textStyle="normal"
                 android:typeface="serif"
-                tools:ignore="MissingConstraints" />
+                tools:ignore="MissingConstraints"
+                />
 
             <Button
                 android:layout_width="match_parent"
@@ -212,5 +141,4 @@
         </LinearLayout>
 
     </ScrollView>
-
 </FrameLayout>
