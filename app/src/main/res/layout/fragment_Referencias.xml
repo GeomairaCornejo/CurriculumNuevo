@@ -48,6 +48,7 @@
                 android:typeface="serif"
                 tools:ignore="DuplicateIds,InvalidId" />
 
+
             <EditText
                 android:id="@+id/textTrab"
                 android:layout_width="398dp"
@@ -134,4 +135,5 @@
         </LinearLayout>
 
     </ScrollView>
+
 </FrameLayout>

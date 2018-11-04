@@ -26,6 +26,7 @@
                 android:textStyle="bold"
                 android:typeface="serif"
                 tools:ignore="InvalidId" />
+
             <EditText
                 android:id="@+id/textFecha"
                 android:layout_width="498dp"

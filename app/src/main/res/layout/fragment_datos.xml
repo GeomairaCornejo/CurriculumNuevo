@@ -183,7 +183,6 @@
                 android:typeface="serif"
                 tools:ignore="MissingConstraints" />
 
-
             <CheckBox
                 android:id="@+id/checkM"
                 android:layout_width="wrap_content"

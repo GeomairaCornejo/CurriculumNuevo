@@ -6,10 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".DatosFragment">
 
+    <!-- TODO: Update blank fragment layout -->
     <ScrollView
         android:id="@+id/scrol1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <LinearLayout
             android:layout_width="390dp"
             android:layout_height="368dp"
@@ -147,4 +149,5 @@
         </LinearLayout>
 
     </ScrollView>
+
 </FrameLayout>
