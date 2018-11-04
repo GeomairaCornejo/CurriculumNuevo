@@ -9,4 +9,15 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="ingl_s">Inglés</string>
+    <string name="colegio_fiscal_provincia_de_tungurahua">Colegio Fiscal Provincia de Tungurahua</string>
+    <string name="estudios_superiores">Estudios Superiores:</string>
+    <string name="lic_en_sistemas_de_informaci_n">Lic. en Sistemas de Información</string>
+    <string name="universidad_de_guayaquil">Universidad de Guayaquil</string>
+    <string name="estudios_primarios">Estudios Primarios:</string>
+    <string name="escuela_particular_mixta_faustino_medardo_cruz">Escuela particular mixta Faustino Medardo Cruz</string>
+    <string name="espa_ol">Español</string>
+    <string name="estudios_secundarios">Estudios Secundarios:</string>
+    <string name="carrera">Carrera:</string>
+    <string name="idiomas">Idiomas:</string>
+    <string name="siguiente">siguiente</string>
 </resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="universidad_de_guayaquil">Universidad de Guayaquil</string>
+    <string name="estudios_primarios">Estudios Primarios:</string>
+    <string name="escuela_particular_mixta_faustino_medardo_cruz">Escuela particular mixta Faustino Medardo Cruz</string>
+    <string name="espa_ol">Español</string>
+    <string name="estudios_secundarios">Estudios Secundarios:</string>
+    <string name="carrera">Carrera:</string>
+    <string name="idiomas">Idiomas:</string>
+    <string name="siguiente">siguiente</string>
+</resources>
