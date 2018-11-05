@@ -139,13 +139,42 @@ public class MainActivity extends AppCompatActivity {
         public Fragment getItem(int position) {
             // getItem is called to instantiate the fragment for the given page.
             // Return a PlaceholderFragment (defined as a static inner class below).
-            return PlaceholderFragment.newInstance(position + 1);
+         //   return PlaceholderFragment.newInstance(position + 1);
+            switch (position){
+                case 0:
+                    DatosFragment datos = new DatosFragment();
+                    return datos;
+                case 1:
+                    EstudiosFragment estudios = new EstudiosFragment();
+                    return  estudios;
+                case 2:
+                    ExperienciaFragment experiencia = new ExperienciaFragment();
+                    return experiencia;
+                case 3:
+                    ReferenciasFragment ref = new ReferenciasFragment();
+                    return ref;
+            }
+            return null;
         }
 
         @Override
         public int getCount() {
             // Show 3 total pages.
-            return 3;
+            return 4;
         }
+       /* @Override
+        public CharSequence getPageTitle(int posicion){
+            switch (position){
+                case 0:
+                    return "Datos Personales";
+                case 1:
+                    return "Estudios";
+                case 2:
+                    return "Experiencia Laboral";
+                case 3:
+                    return "Referencias";
+            }
+            return null;
+        }*/
     }
 }
