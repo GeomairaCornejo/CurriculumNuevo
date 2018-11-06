@@ -13,81 +13,174 @@
 
     <!-- TODO: Update blank fragment layout -->
 
-
-
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        >
+        android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/txtNombre"
-            android:layout_width="398dp"
-            android:layout_height="30dp"
-            android:text="Nombres:"
-            android:textColor="@color/colorAccent"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            android:typeface="serif"
-            tools:ignore="InvalidId" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
 
-        <EditText
-            android:id="@+id/textView"
-            android:layout_width="498dp"
-            android:layout_height="55dp"
-            android:text="Stalin Cortez"
-            android:textColor="@color/colorAccent"
-            android:textSize="20sp"
-            android:textStyle="normal"
-            android:typeface="serif" />
+            <TextView
+                android:id="@+id/txttitulo"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="REFERENCIA 1"
 
-        <TextView
-            android:id="@+id/txtOcu"
-            android:layout_width="398dp"
-            android:layout_height="30dp"
-            android:text="Ocupació:"
-            android:textColor="@color/colorAccent"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            android:typeface="serif"
-            tools:ignore="DuplicateIds,InvalidId" />
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                tools:ignore="InvalidId" />
+            <TextView
+                android:id="@+id/txtNombre"
+                android:layout_width="400dp"
+                android:layout_height="30dp"
+                android:text="Nombres:"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                tools:ignore="InvalidId" />
 
-        <EditText
-            android:id="@+id/textoc"
-            android:layout_width="398dp"
-            android:layout_height="55dp"
-            android:layout_marginTop="2dp"
-            android:text="Lcdo. en terapia respiratoria"
-            android:textColor="@color/colorAccent"
-            android:textSize="20sp"
-            android:textStyle="normal"
-            android:typeface="serif"
-            tools:ignore="MissingConstraints" />
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="498dp"
+                android:layout_height="55dp"
+                android:text="Stalin Cortez"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp"
+                android:textStyle="normal"
+                android:typeface="serif" />
 
-        <TextView
-            android:id="@+id/txtTelefono"
-            android:layout_width="398dp"
-            android:layout_height="30dp"
-            android:text="Celular:"
-            android:textColor="@color/colorAccent"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            android:typeface="serif"
-            tools:ignore="DuplicateIds,InvalidId" />
+            <TextView
+                android:id="@+id/txtOcu"
+                android:layout_width="398dp"
+                android:layout_height="30dp"
+                android:text="Ocupación:"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                tools:ignore="DuplicateIds,InvalidId" />
 
-        <EditText
-            android:id="@+id/textcel"
-            android:layout_width="398dp"
-            android:layout_height="55dp"
-            android:layout_marginTop="2dp"
-            android:text="0986456895"
-            android:textColor="@color/colorAccent"
-            android:textSize="20sp"
-            android:textStyle="normal"
-            android:typeface="serif"
-            tools:ignore="MissingConstraints" />
-    </LinearLayout>
+            <TextView
+                android:id="@+id/textoc"
+                android:layout_width="398dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="2dp"
+                android:text="Lcdo. en terapia respiratoria"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp"
+                android:textStyle="normal"
+                android:typeface="serif"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/txtTelefono"
+                android:layout_width="398dp"
+                android:layout_height="30dp"
+                android:text="Celular:"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                tools:ignore="DuplicateIds,InvalidId" />
+
+            <TextView
+                android:id="@+id/textcel"
+                android:layout_width="398dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="2dp"
+                android:text="0986456895"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp"
+                android:textStyle="normal"
+                android:typeface="serif"
+                tools:ignore="MissingConstraints" />
+            <TextView
+                android:id="@+id/txttitlo"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="REFERENCIA 2"
+
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                tools:ignore="InvalidId" />
+            <TextView
+                android:id="@+id/txtNombe"
+                android:layout_width="400dp"
+                android:layout_height="30dp"
+                android:text="Nombres:"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                tools:ignore="InvalidId" />
+
+            <TextView
+                android:id="@+id/textViewo"
+                android:layout_width="498dp"
+                android:layout_height="55dp"
+                android:text="Mercedes Insuasti"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp"
+                android:textStyle="normal"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/txtOcup"
+                android:layout_width="398dp"
+                android:layout_height="30dp"
+                android:text="Ocupación:"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                tools:ignore="DuplicateIds,InvalidId" />
+
+            <TextView
+                android:id="@+id/textocp"
+                android:layout_width="398dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="2dp"
+                android:text=" Contadora"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp"
+                android:textStyle="normal"
+                android:typeface="serif"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/txtTelefono"
+                android:layout_width="398dp"
+                android:layout_height="30dp"
+                android:text="Celular:"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                tools:ignore="DuplicateIds,InvalidId" />
+
+            <TextView
+                android:id="@+id/textceol"
+                android:layout_width="398dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="2dp"
+                android:text="0963854796"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp"
+                android:textStyle="normal"
+                android:typeface="serif"
+                tools:ignore="MissingConstraints" />
+        </LinearLayout>
+    </ScrollView>
+
+
 
 
 </FrameLayout>
