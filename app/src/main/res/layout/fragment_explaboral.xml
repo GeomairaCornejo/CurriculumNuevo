@@ -22,6 +22,7 @@
                 android:layout_width="398dp"
                 android:layout_height="30dp"
                 android:text="EXPERIENCIA LABORAL"
+                android:gravity="center"
                 android:textColor="@color/colorAccent"
                 android:layout_gravity="center"
                 android:textSize="24sp"
